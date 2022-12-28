@@ -17,6 +17,7 @@ function content()
   <div class="row">
     <?php foreach ($data as $barang) : ?>
       <div class="col-md-4 mb-3">
+        <h5><?= $barang['nama'] ?></h5>
         <div class="card">
           <img src="uploads/<?= $barang['gambar'] ?>" class="card-img-top" alt="">
           <div class="card-body">
